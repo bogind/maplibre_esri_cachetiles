@@ -1,0 +1,1405 @@
+{
+    "errorCode": 0,
+    "status": 0,
+    "message": null,
+    "data": {
+      "backgrounds": {
+        "Historic1940": {
+          "mapId": "Historic1940",
+          "internalMapId": "h1940",
+          "tilesURL": "cdnil.govmap.gov.il/Antiquities/030313KD12TF",
+          "imageFormat": "png8",
+          "scaleId": 1,
+          "groupId": 0,
+          "dpi": 96,
+          "cssImage": "MapType06",
+          "mapName": "מפות 100,000 1940",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 4,
+          "backgroundID": 4,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": true,
+          "groupName": "מפות היסטוריות",
+          "enGroupName": null,
+          "lstBackgrounds": [
+            "Historic1935",
+            "TelAviv1930",
+            "Jerusamlem1926",
+            "Haifa1919",
+            "JerusalemOldCity"
+          ],
+          "extent": "{ \"xmin\": 121499, \"ymin\": 536559, \"xmax\": 271351, \"ymax\": 826272, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": "בחר מפה",
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 5,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "TreeOrthoForGis": {
+          "mapId": "TreeOrthoForGis",
+          "internalMapId": "TreeMap",
+          "tilesURL": "cdn.govmap.gov.il/TreeKeerperV3",
+          "imageFormat": "png8",
+          "scaleId": 11,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "TreeOrtho4Gis",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 29,
+          "backgroundID": 29,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": [
+            "OrthoCacheNational",
+            "TreeOrthoForGis"
+          ],
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 0,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "MapCacheNational": {
+          "mapId": "MapCacheNational",
+          "internalMapId": "Map",
+          "tilesURL": "cdn.govmap.gov.il/B0BTRTL2309",
+          "imageFormat": "png8",
+          "scaleId": 0,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType01",
+          "mapName": "רחובות ומבנים",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 0,
+          "backgroundID": 0,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": true,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 0,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": true
+        },
+        "TreeMapForGis": {
+          "mapId": "TreeMapForGis",
+          "internalMapId": "TreeMap",
+          "tilesURL": "cdn.govmap.gov.il/TreeKeerperV3",
+          "imageFormat": "png8",
+          "scaleId": 11,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "TreeMap4Gis",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 28,
+          "backgroundID": 28,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": [
+            "MapCacheNational",
+            "TreeMapForGis"
+          ],
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 0,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "OrthoCacheNationalTree": {
+          "mapId": "OrthoCacheNationalTree",
+          "internalMapId": "AerialTree",
+          "tilesURL": "cdn.govmap.gov.il/020522B0B20R",
+          "imageFormat": "jpg",
+          "scaleId": 11,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "תצלום אויר",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 31,
+          "backgroundID": 31,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 0,
+          "cssButton": "mapBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "MapCacheNationalEnHe": {
+          "mapId": "MapCacheNationalEnHe",
+          "internalMapId": "map",
+          "tilesURL": "cdn.govmap.gov.il/ENB0B290322",
+          "imageFormat": "png8",
+          "scaleId": 0,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType01",
+          "mapName": "רחובות ומבנים en",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 15,
+          "backgroundID": 15,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 0,
+          "cssButton": "orthoBgPhotoChangeEn",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "MapCacheNationalTree": {
+          "mapId": "MapCacheNationalTree",
+          "internalMapId": "MapTree",
+          "tilesURL": "cdn.govmap.gov.il/BNTL2023Q1",
+          "imageFormat": "png8",
+          "scaleId": 11,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType01",
+          "mapName": "רחובות ומבנים",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 30,
+          "backgroundID": 30,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 0,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "Historic1935": {
+          "mapId": "Historic1935",
+          "internalMapId": "h1935",
+          "tilesURL": "cdnil.govmap.gov.il/Antiquities/030313LP88TT",
+          "imageFormat": "png8",
+          "scaleId": 3,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": " ",
+          "mapName": "מפות 100,000 1935",
+          "enMapName": null,
+          "parentId": 0,
+          "urlId": 6,
+          "backgroundID": 6,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": true,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 131846, \"ymin\": 582228, \"xmax\": 274919, \"ymax\": 801297, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 0,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "TelAviv1930": {
+          "mapId": "TelAviv1930",
+          "internalMapId": "telaviv1930",
+          "tilesURL": "cdnil.govmap.gov.il/Antiquities/030313NM09TA",
+          "imageFormat": "png8",
+          "scaleId": 2,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": " ",
+          "mapName": "תל אביב 1930",
+          "enMapName": null,
+          "parentId": 0,
+          "urlId": 5,
+          "backgroundID": 5,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": true,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 175059, \"ymin\": 659002, \"xmax\": 181454, \"ymax\": 668467, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": "{\"x\":178944,\"y\":664501}",
+          "bgOrder": 1,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "Jerusamlem1926": {
+          "mapId": "Jerusamlem1926",
+          "internalMapId": "j1926",
+          "tilesURL": "cdnil.govmap.gov.il/Antiquities/030313DL95TJ",
+          "imageFormat": "png8",
+          "scaleId": 4,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": " ",
+          "mapName": "ירושלים 1926",
+          "enMapName": null,
+          "parentId": 0,
+          "urlId": 7,
+          "backgroundID": 7,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": true,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 218068, \"ymin\": 628510, \"xmax\": 224234, \"ymax\": 635123, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": "{\"x\":221328,\"y\":632196}",
+          "bgOrder": 2,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "OrthoCacheNational": {
+          "mapId": "OrthoCacheNational",
+          "internalMapId": "Aerial",
+          "tilesURL": "cdn.govmap.gov.il/M2023ORT3TS",
+          "imageFormat": "jpg",
+          "scaleId": 9,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "תצלום אויר",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 1,
+          "backgroundID": 1,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": true,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 2,
+          "cssButton": "mapBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": true
+        },
+        "Haifa1919": {
+          "mapId": "Haifa1919",
+          "internalMapId": "h1919",
+          "tilesURL": "cdnil.govmap.gov.il/Antiquities/030313XD35FD",
+          "imageFormat": "png8",
+          "scaleId": 2,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": " ",
+          "mapName": "חיפה 1919",
+          "enMapName": null,
+          "parentId": 0,
+          "urlId": 8,
+          "backgroundID": 8,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": true,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 195203, \"ymin\": 741156, \"xmax\": 203128, \"ymax\": 749971, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": "{\"x\":199196,\"y\":746588}",
+          "bgOrder": 3,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "CombinedCacheNational": {
+          "mapId": "CombinedCacheNational",
+          "internalMapId": "Combined",
+          "tilesURL": "cdn.govmap.gov.il/BBLPD2230T",
+          "imageFormat": "png8",
+          "scaleId": 0,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType04",
+          "mapName": "תצלום אויר משולב",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 2,
+          "backgroundID": 3,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": [
+            "OrthoCacheNational",
+            "CombinedCacheNational"
+          ],
+          "bVisibleInMenu": true,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 3,
+          "cssButton": "mapBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "OrthoIrCacheNational": {
+          "mapId": "OrthoIrCacheNational",
+          "internalMapId": "AerialCir",
+          "tilesURL": "cdn.govmap.gov.il/BOBCIR062022",
+          "imageFormat": "jpg",
+          "scaleId": 9,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType08",
+          "mapName": "תצלום אויר CIR",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 18,
+          "backgroundID": 18,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": true,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 4,
+          "cssButton": "mapBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "JerusalemOldCity": {
+          "mapId": "JerusalemOldCity",
+          "internalMapId": "jerold",
+          "tilesURL": "cdnil.govmap.gov.il/130518J1L2M3",
+          "imageFormat": "jpg",
+          "scaleId": 8,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": " ",
+          "mapName": "עיר עתיקה ירושלים",
+          "enMapName": null,
+          "parentId": 0,
+          "urlId": 16,
+          "backgroundID": 16,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": true,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 221370, \"ymin\": 630595, \"xmax\": 222782, \"ymax\": 632602, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": "{\"x\":222254,\"y\":631699}",
+          "bgOrder": 4,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "Map50K": {
+          "mapId": "Map50K",
+          "internalMapId": "m50k",
+          "tilesURL": "cdn.govmap.gov.il/022023MAP25KTO",
+          "imageFormat": "png8",
+          "scaleId": 5,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType07",
+          "mapName": "מפות 1:25000",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 9,
+          "backgroundID": 9,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": true,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 6,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "none": {
+          "mapId": "none",
+          "internalMapId": "none",
+          "tilesURL": "9999",
+          "imageFormat": "png8",
+          "scaleId": 999,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "none",
+          "mapName": "ללא רקע",
+          "enMapName": "none",
+          "parentId": -1,
+          "urlId": 11,
+          "backgroundID": 11,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": true,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 8,
+          "cssButton": "mapBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "OrthoCacheNational2010": {
+          "mapId": "OrthoCacheNational2010",
+          "internalMapId": "Aerial2010",
+          "tilesURL": "cdn.govmap.gov.il/2010EB22719",
+          "imageFormat": "jpg",
+          "scaleId": 0,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "Ortophoto2010",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 19,
+          "backgroundID": 19,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 124000, \"ymin\": 377000, \"xmax\": 255000, \"ymax\": 720000, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 10,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "OrthoCacheNational2005": {
+          "mapId": "OrthoCacheNational2005",
+          "internalMapId": "Aerial2005",
+          "tilesURL": "cdn.govmap.gov.il/180619ORTO2005",
+          "imageFormat": "jpg",
+          "scaleId": 0,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "Ortophoto2005",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 20,
+          "backgroundID": 20,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 125000, \"ymin\": 540000, \"xmax\": 285000, \"ymax\": 805000, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 11,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "OrthoCacheNational2007": {
+          "mapId": "OrthoCacheNational2007",
+          "internalMapId": "Aerial2007",
+          "tilesURL": "cdn.govmap.gov.il/2007AL3NA20",
+          "imageFormat": "jpg",
+          "scaleId": 0,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "Ortophoto2007",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 21,
+          "backgroundID": 21,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 125000, \"ymin\": 540000, \"xmax\": 285000, \"ymax\": 805000, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 12,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "OrthoCacheNational2017": {
+          "mapId": "OrthoCacheNational2017",
+          "internalMapId": "Aerial2017",
+          "tilesURL": "cdnil.govmap.gov.il/250318O3R6T9",
+          "imageFormat": "jpg",
+          "scaleId": 0,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "Ortophoto2017",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 22,
+          "backgroundID": 22,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 124000, \"ymin\": 377000, \"xmax\": 285000, \"ymax\": 805000, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 13,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "OrthoCacheNational2018": {
+          "mapId": "OrthoCacheNational2018",
+          "internalMapId": "Aerial2018",
+          "tilesURL": "cdn.govmap.gov.il/260519ORTO18",
+          "imageFormat": "jpg",
+          "scaleId": 0,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "Ortophoto2018",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 23,
+          "backgroundID": 23,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 124000, \"ymin\": 377000, \"xmax\": 285000, \"ymax\": 805000, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 14,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "OrthoCacheNational2019": {
+          "mapId": "OrthoCacheNational2019",
+          "internalMapId": "Aerial2019",
+          "tilesURL": "cdn.govmap.gov.il/09082020O1R2T7",
+          "imageFormat": "jpg",
+          "scaleId": 0,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "Ortophoto2019",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 24,
+          "backgroundID": 24,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 125000, \"ymin\": 540000, \"xmax\": 285000, \"ymax\": 805000, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 15,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "BarIlanTopoMap": {
+          "mapId": "BarIlanTopoMap",
+          "internalMapId": "Topo",
+          "tilesURL": "cdnil.govmap.gov.il/BRLNTOP181021",
+          "imageFormat": "png8",
+          "scaleId": 0,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType01",
+          "mapName": "מפה טופוגרפית בר אילן",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 25,
+          "backgroundID": 25,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 16,
+          "cssButton": "mapBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "OrthoCacheNational2020": {
+          "mapId": "OrthoCacheNational2020",
+          "internalMapId": "Aerial2020",
+          "tilesURL": "cdn.govmap.gov.il/N23A09GARY4",
+          "imageFormat": "jpg",
+          "scaleId": 0,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "Ortophoto2020",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 26,
+          "backgroundID": 26,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": "{ \"xmin\": 125000, \"ymin\": 540000, \"xmax\": 285000, \"ymax\": 805000, \"spatialReference\": { \"wkid\": 2039} }",
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 17,
+          "cssButton": "orthoBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": false
+        },
+        "OrthoCacheNational2022": {
+          "mapId": "OrthoCacheNational2022",
+          "internalMapId": "Aerial2022",
+          "tilesURL": "cdn.govmap.gov.il/M2023ORT3TS",
+          "imageFormat": "jpg",
+          "scaleId": 9,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "תצלום אויר",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 27,
+          "backgroundID": 27,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 18,
+          "cssButton": "mapBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": true
+        },
+        "OrthoCacheNational2021": {
+          "mapId": "OrthoCacheNational2021",
+          "internalMapId": "Aerial2021",
+          "tilesURL": "cdn.govmap.gov.il/020522B0B20R",
+          "imageFormat": "jpg",
+          "scaleId": 9,
+          "groupId": 999,
+          "dpi": 96,
+          "cssImage": "MapType03",
+          "mapName": "תצלום אויר",
+          "enMapName": null,
+          "parentId": -1,
+          "urlId": 32,
+          "backgroundID": 32,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "backgroundList": null,
+          "bVisibleInMenu": false,
+          "groupName": null,
+          "enGroupName": null,
+          "lstBackgrounds": null,
+          "extent": null,
+          "groupButtonTitle": null,
+          "enGroupButtonTitle": null,
+          "origin": null,
+          "bgOrder": 19,
+          "cssButton": "mapBgPhotoChange",
+          "is_en": false,
+          "embedded_toggle": true
+        }
+      },
+      "clientBackgrounds": null,
+      "lods": {
+        "0": [
+          {
+            "level": 0,
+            "resolution": 793.751587503175,
+            "scale": 3000000
+          },
+          {
+            "level": 1,
+            "resolution": 264.583862501058,
+            "scale": 1000000
+          },
+          {
+            "level": 2,
+            "resolution": 132.291931250529,
+            "scale": 500000
+          },
+          {
+            "level": 3,
+            "resolution": 66.1459656252646,
+            "scale": 250000
+          },
+          {
+            "level": 4,
+            "resolution": 26.4583862501058,
+            "scale": 100000
+          },
+          {
+            "level": 5,
+            "resolution": 13.2291931250529,
+            "scale": 50000
+          },
+          {
+            "level": 6,
+            "resolution": 6.61459656252646,
+            "scale": 25000
+          },
+          {
+            "level": 7,
+            "resolution": 2.64583862501058,
+            "scale": 10000
+          },
+          {
+            "level": 8,
+            "resolution": 1.32291931250529,
+            "scale": 5000
+          },
+          {
+            "level": 9,
+            "resolution": 0.661459656252646,
+            "scale": 2500
+          },
+          {
+            "level": 10,
+            "resolution": 0.330729828126323,
+            "scale": 1250
+          }
+        ],
+        "1": [
+          {
+            "level": 0,
+            "resolution": 793.751587503175,
+            "scale": 3000000
+          },
+          {
+            "level": 1,
+            "resolution": 264.583862501058,
+            "scale": 1000000
+          },
+          {
+            "level": 2,
+            "resolution": 132.291931250529,
+            "scale": 500000
+          },
+          {
+            "level": 3,
+            "resolution": 66.1459656252646,
+            "scale": 250000
+          },
+          {
+            "level": 4,
+            "resolution": 26.4583862501058,
+            "scale": 100000
+          },
+          {
+            "level": 5,
+            "resolution": 13.2291931250529,
+            "scale": 50000
+          },
+          {
+            "level": 6,
+            "resolution": 6.61459656252646,
+            "scale": 25000
+          }
+        ],
+        "2": [
+          {
+            "level": 0,
+            "resolution": 13.2291931250529,
+            "scale": 50000
+          },
+          {
+            "level": 1,
+            "resolution": 6.61459656252646,
+            "scale": 25000
+          },
+          {
+            "level": 2,
+            "resolution": 2.64583862501058,
+            "scale": 10000
+          },
+          {
+            "level": 3,
+            "resolution": 1.32291931250529,
+            "scale": 5000
+          },
+          {
+            "level": 4,
+            "resolution": 0.661459656252646,
+            "scale": 2500
+          }
+        ],
+        "3": [
+          {
+            "level": 0,
+            "resolution": 264.583862501058,
+            "scale": 1000000
+          },
+          {
+            "level": 1,
+            "resolution": 132.291931250529,
+            "scale": 500000
+          },
+          {
+            "level": 2,
+            "resolution": 66.1459656252646,
+            "scale": 250000
+          },
+          {
+            "level": 3,
+            "resolution": 26.4583862501058,
+            "scale": 100000
+          },
+          {
+            "level": 4,
+            "resolution": 13.2291931250529,
+            "scale": 50000
+          },
+          {
+            "level": 5,
+            "resolution": 6.61459656252646,
+            "scale": 25000
+          }
+        ],
+        "4": [
+          {
+            "level": 0,
+            "resolution": 6.61459656252646,
+            "scale": 25000
+          },
+          {
+            "level": 1,
+            "resolution": 2.64583862501058,
+            "scale": 10000
+          },
+          {
+            "level": 2,
+            "resolution": 1.32291931250529,
+            "scale": 5000
+          },
+          {
+            "level": 3,
+            "resolution": 0.661459656252646,
+            "scale": 2500
+          }
+        ],
+        "5": [
+          {
+            "level": 0,
+            "resolution": 13.2291931250529,
+            "scale": 50000
+          },
+          {
+            "level": 1,
+            "resolution": 6.61459656252646,
+            "scale": 25000
+          },
+          {
+            "level": 2,
+            "resolution": 2.64583862501058,
+            "scale": 10000
+          },
+          {
+            "level": 3,
+            "resolution": 1.32291931250529,
+            "scale": 5000
+          },
+          {
+            "level": 4,
+            "resolution": 0.66145965625264,
+            "scale": 2500
+          }
+        ],
+        "6": [
+          {
+            "level": 0,
+            "resolution": 793.7515875,
+            "scale": 3000000
+          },
+          {
+            "level": 1,
+            "resolution": 264.5838625,
+            "scale": 1000000
+          },
+          {
+            "level": 2,
+            "resolution": 132.2919313,
+            "scale": 500000
+          },
+          {
+            "level": 3,
+            "resolution": 66.14596563,
+            "scale": 250000
+          },
+          {
+            "level": 4,
+            "resolution": 26.45838625,
+            "scale": 100000
+          },
+          {
+            "level": 5,
+            "resolution": 13.22919313,
+            "scale": 50000
+          },
+          {
+            "level": 6,
+            "resolution": 6.614596563,
+            "scale": 25000
+          },
+          {
+            "level": 7,
+            "resolution": 2.645838625,
+            "scale": 10000
+          },
+          {
+            "level": 8,
+            "resolution": 1.322919313,
+            "scale": 5000
+          }
+        ],
+        "7": [
+          {
+            "level": 0,
+            "resolution": 793.751587503175,
+            "scale": 3000000
+          },
+          {
+            "level": 1,
+            "resolution": 264.583862501058,
+            "scale": 1000000
+          },
+          {
+            "level": 2,
+            "resolution": 132.291931250529,
+            "scale": 500000
+          },
+          {
+            "level": 3,
+            "resolution": 66.1459656252646,
+            "scale": 250000
+          },
+          {
+            "level": 4,
+            "resolution": 26.4583862501058,
+            "scale": 100000
+          },
+          {
+            "level": 5,
+            "resolution": 13.2291931250529,
+            "scale": 50000
+          },
+          {
+            "level": 6,
+            "resolution": 6.61459656252646,
+            "scale": 25000
+          },
+          {
+            "level": 7,
+            "resolution": 2.64583862501058,
+            "scale": 10000
+          },
+          {
+            "level": 8,
+            "resolution": 1.32291931250529,
+            "scale": 5000
+          },
+          {
+            "level": 9,
+            "resolution": 0.661459656252646,
+            "scale": 2500
+          },
+          {
+            "level": 10,
+            "resolution": 0.330729828126323,
+            "scale": 1250
+          },
+          {
+            "level": 11,
+            "resolution": 0.132291931250529,
+            "scale": 500
+          },
+          {
+            "level": 12,
+            "resolution": 0.0661459656252646,
+            "scale": 250
+          },
+          {
+            "level": 13,
+            "resolution": 0.033072982812632296,
+            "scale": 125
+          }
+        ],
+        "8": [
+          {
+            "level": 0,
+            "resolution": 2.645838625,
+            "scale": 10000
+          },
+          {
+            "level": 1,
+            "resolution": 1.322919313,
+            "scale": 5000
+          },
+          {
+            "level": 2,
+            "resolution": 0.661459656252646,
+            "scale": 2500
+          },
+          {
+            "level": 3,
+            "resolution": 0.330729828126323,
+            "scale": 1250
+          }
+        ],
+        "9": [
+          {
+            "level": 0,
+            "resolution": 793.751587503175,
+            "scale": 3000000
+          },
+          {
+            "level": 1,
+            "resolution": 264.583862501058,
+            "scale": 1000000
+          },
+          {
+            "level": 2,
+            "resolution": 132.291931250529,
+            "scale": 500000
+          },
+          {
+            "level": 3,
+            "resolution": 66.1459656252646,
+            "scale": 250000
+          },
+          {
+            "level": 4,
+            "resolution": 26.4583862501058,
+            "scale": 100000
+          },
+          {
+            "level": 5,
+            "resolution": 13.2291931250529,
+            "scale": 50000
+          },
+          {
+            "level": 6,
+            "resolution": 6.61459656252646,
+            "scale": 25000
+          },
+          {
+            "level": 7,
+            "resolution": 2.64583862501058,
+            "scale": 10000
+          },
+          {
+            "level": 8,
+            "resolution": 1.32291931250529,
+            "scale": 5000
+          },
+          {
+            "level": 9,
+            "resolution": 0.661459656252646,
+            "scale": 2500
+          },
+          {
+            "level": 10,
+            "resolution": 0.330729828126323,
+            "scale": 1250
+          },
+          {
+            "level": 11,
+            "resolution": 0.13229193125052918,
+            "scale": 500
+          }
+        ],
+        "10": [
+          {
+            "level": 0,
+            "resolution": 1.32291931250529,
+            "scale": 5000
+          },
+          {
+            "level": 1,
+            "resolution": 0.661459656252646,
+            "scale": 2500
+          },
+          {
+            "level": 2,
+            "resolution": 0.330729828126323,
+            "scale": 1250
+          },
+          {
+            "level": 3,
+            "resolution": 0.132291931250529,
+            "scale": 500
+          },
+          {
+            "level": 4,
+            "resolution": 0.06614596562526459,
+            "scale": 250
+          },
+          {
+            "level": 5,
+            "resolution": 0.033072982812632296,
+            "scale": 125
+          }
+        ],
+        "11": [
+          {
+            "level": 5,
+            "resolution": 13.2291931250529,
+            "scale": 50000
+          },
+          {
+            "level": 6,
+            "resolution": 6.61459656252646,
+            "scale": 25000
+          },
+          {
+            "level": 7,
+            "resolution": 2.64583862501058,
+            "scale": 10000
+          },
+          {
+            "level": 8,
+            "resolution": 1.32291931250529,
+            "scale": 5000
+          },
+          {
+            "level": 9,
+            "resolution": 0.661459656252646,
+            "scale": 2500
+          },
+          {
+            "level": 10,
+            "resolution": 0.330729828126323,
+            "scale": 1250
+          }
+        ],
+        "999": [
+          {
+            "level": 0,
+            "resolution": 793.751587503175,
+            "scale": 3000000
+          },
+          {
+            "level": 1,
+            "resolution": 264.583862501058,
+            "scale": 1000000
+          },
+          {
+            "level": 2,
+            "resolution": 132.291931250529,
+            "scale": 500000
+          },
+          {
+            "level": 3,
+            "resolution": 66.1459656252646,
+            "scale": 250000
+          },
+          {
+            "level": 4,
+            "resolution": 26.4583862501058,
+            "scale": 100000
+          },
+          {
+            "level": 5,
+            "resolution": 13.2291931250529,
+            "scale": 50000
+          },
+          {
+            "level": 6,
+            "resolution": 6.61459656252646,
+            "scale": 25000
+          },
+          {
+            "level": 7,
+            "resolution": 2.64583862501058,
+            "scale": 10000
+          },
+          {
+            "level": 8,
+            "resolution": 1.32291931250529,
+            "scale": 5000
+          },
+          {
+            "level": 9,
+            "resolution": 0.661459656252646,
+            "scale": 2500
+          },
+          {
+            "level": 10,
+            "resolution": 0.330729828126323,
+            "scale": 1250
+          },
+          {
+            "level": 11,
+            "resolution": 0.132291931250529,
+            "scale": 500
+          },
+          {
+            "level": 12,
+            "resolution": 0.0661459656252646,
+            "scale": 250
+          }
+        ]
+      },
+      "urlMapping": {
+        "0": "MapCacheNational",
+        "1": "OrthoCacheNational",
+        "2": "CombinedCacheNational",
+        "4": "Historic1940",
+        "5": "TelAviv1930",
+        "6": "Historic1935",
+        "7": "Jerusamlem1926",
+        "8": "Haifa1919",
+        "9": "Map50K",
+        "10": "MapCacheNationalEng",
+        "11": "none",
+        "15": "MapCacheNationalEnHe",
+        "16": "JerusalemOldCity",
+        "17": "OrthoCacheNationalEng",
+        "18": "OrthoIrCacheNational",
+        "19": "OrthoCacheNational2010",
+        "20": "OrthoCacheNational2005",
+        "21": "OrthoCacheNational2007",
+        "22": "OrthoCacheNational2017",
+        "23": "OrthoCacheNational2018",
+        "24": "OrthoCacheNational2019",
+        "25": "BarIlanTopoMap",
+        "26": "OrthoCacheNational2020",
+        "27": "OrthoCacheNational2022",
+        "28": "TreeMapForGis",
+        "29": "TreeOrthoForGis",
+        "30": "MapCacheNationalTree",
+        "31": "OrthoCacheNationalTree",
+        "32": "OrthoCacheNational2021"
+      }
+    },
+    "active": false
+  }
