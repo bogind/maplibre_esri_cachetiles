@@ -1,0 +1,91 @@
+{
+    "name": "MapCacheNational",
+    "TemplateTileURL": "https://cdn.govmap.gov.il/B0BTRTL2309/{LOD}/{R}/{C}.png",
+    "format": "png24",
+    "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en,he;q=0.8,he-IL;q=0.5,en-US;q=0.3",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection":"keep-alive",
+        "Upgrade-Insecure-Requests":1,
+        "Sec-Fetch-Dest":"document",
+        "Sec-Fetch-Mode":"no-cors",
+        "Sec-Fetch-Site":"none",
+        "Sec-Fetch-User":"?1",
+        "Sec-GPC":1,
+        "Pragma":"no-cache",
+        "Cache-Control":"no-cache",
+        "TE":"trailers"
+    },
+    "tileInfo":{
+        "origin": { "x": -5403700, "y": 7116700, "spatialReference": { "wkid": 2039 } },
+        "spatialReference": { "wkid": 2039 },
+        "rows": 256,
+        "cols": 256,
+        "lods": [
+            {
+              "level": 0,
+              "resolution": 793.751587503175,
+              "scale": 3000000
+            },
+            {
+              "level": 1,
+              "resolution": 264.583862501058,
+              "scale": 1000000
+            },
+            {
+              "level": 2,
+              "resolution": 132.291931250529,
+              "scale": 500000
+            },
+            {
+              "level": 3,
+              "resolution": 66.1459656252646,
+              "scale": 250000
+            },
+            {
+              "level": 4,
+              "resolution": 26.4583862501058,
+              "scale": 100000
+            },
+            {
+              "level": 5,
+              "resolution": 13.2291931250529,
+              "scale": 50000
+            },
+            {
+              "level": 6,
+              "resolution": 6.61459656252646,
+              "scale": 25000
+            },
+            {
+              "level": 7,
+              "resolution": 2.64583862501058,
+              "scale": 10000
+            },
+            {
+              "level": 8,
+              "resolution": 1.32291931250529,
+              "scale": 5000
+            },
+            {
+              "level": 9,
+              "resolution": 0.661459656252646,
+              "scale": 2500
+            },
+            {
+              "level": 10,
+              "resolution": 0.330729828126323,
+              "scale": 1250
+            }
+          ]
+    },
+    "fullExtent": { 
+        "xmin": -928236.934539916, 
+        "ymin": -542763.057923503, 
+        "xmax": 1052663.95973824, 
+        "ymax": 1452187.09539356, 
+        "spatialReference": { "wkid": 2039 } 
+    },
+    "spatialReference": { "wkid": 2039 }
+}

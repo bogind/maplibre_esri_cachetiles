@@ -156,7 +156,43 @@ export async function GetGridMetadata(serviceURL){
     const url = serviceURL + '?f=pjson';
     const response = await fetch(url);
     const json = await response.json();
+    json.gridExtent = [json.fullExtent.xmin, json.fullExtent.ymin, json.fullExtent.xmax, json.fullExtent.ymax];
+    json.gridExtentGeoJson = turf.bboxPolygon(json.gridExtent);
     return json;
+}
+
+
+export function ParseGridMetadata(gridMetadata){
+    try {
+      if(gridMetadata.fullExtent === undefined || gridMetadata.fullExtent === null){
+        console.error('GridMetadata is missing fullExtent');
+      }else{
+        gridMetadata.gridExtent = [gridMetadata.fullExtent.xmin, gridMetadata.fullExtent.ymin, gridMetadata.fullExtent.xmax, gridMetadata.fullExtent.ymax];
+        gridMetadata.gridExtentGeoJson = turf.bboxPolygon(gridMetadata.gridExtent);
+      }
+
+      if(gridMetadata.tileInfo === undefined || gridMetadata.tileInfo === null){
+        console.error('GridMetadata is missing tileInfo');
+      }
+
+      if(proj4.defs(`EPSG:${gridMetadata.spatialReference.wkid}`) === undefined){
+        console.error(`GridMetadata is missing spatialReference ${gridMetadata.spatialReference.wkid}`);
+        fetch(`https://epsg.io/${gridMetadata.spatialReference.wkid}.js`)
+        .then(response => response.text())
+        .then(text => {
+          eval(text);
+          console.log(`Added spatialReference ${gridMetadata.spatialReference.wkid} to proj4`);
+          console.log(`Adding a spatialReference to proj4 like this is not a good practice.\n
+          esri does not always use the same spatialReference for the same wkid.\n
+          they also might have a different definition for a wkid than its official EPSG code.\n
+           Consider adding it to proj4.defs() manually`);
+        });
+      }
+
+      return gridMetadata;  
+    } catch (error) {
+      
+    }
 }
 
 /**
@@ -301,10 +337,26 @@ export function addClosestTile(map, lon, lat, serviceURL, gridMetadata){
     
 }
 
-export function addTile(map,zoomLevel,lon,lat,gridMetadata,serviceURL,sourceName){
+export function BuildTileURL(tileX, tileY, LOD, TileTemplateURL){
+    if(TileTemplateURL.includes('{z}') && TileTemplateURL.includes('{y}') && TileTemplateURL.includes('{x}')){
+        return TileTemplateURL.replace('{z}',LOD.level).replace('{y}',tileY).replace('{x}',tileX);
+    }
+    if(TileTemplateURL.includes('{row}') && TileTemplateURL.includes('{col}') && TileTemplateURL.includes('{level}')){
+        return TileTemplateURL.replace('{level}',LOD.level).replace('{row}',tileY).replace('{col}',tileX);
+    }
+    if(TileTemplateURL.includes('{R}') && TileTemplateURL.includes('{C}') && TileTemplateURL.includes('{LOD}')){
+      let level = `L${String(LOD.level).padStart(2, '0')}`;
+      let row = `R${String(tileY).padStart(8, '0')}`;
+      let col = `C${String(tileX).padStart(8, '0')}`;
+      return TileTemplateURL.replace('{LOD}',level).replace('{R}',row).replace('{C}',col);
+    }
+}
+
+export function addTile(map,zoomLevel,lon,lat,gridMetadata,TileTemplateURL,sourceName){
     const LOD = GetClosestLOD(zoomLevel, gridMetadata);
     const [tileX, tileY] = GetGridTilingSchemeXY(lon, lat, LOD, gridMetadata);
-    const tileURL = `${serviceURL}/tile/${LOD.level}/${tileY}/${tileX}`;
+    const tileURL = BuildTileURL(tileX, tileY, LOD, TileTemplateURL);
+    //const tileURL = TileTemplateURL.replace('{z}',LOD.level).replace('{y}',tileY).replace('{x}',tileX);
     const tileBBox = getGridTileBBOX(tileX, tileY, LOD, gridMetadata);
 
     const source = map.getSource(sourceName);
